@@ -4,15 +4,6 @@ from .Materials import Materials
 from .Optimization import Optimize
 from .Utils import *
 
-bl_info = {
-    "name": "Mcblend",
-    "author": "Aspirata",
-    "version": (0, 3, 1),
-    "blender": (4, 0, 0),
-    "location": "View3D > Addons Tab",
-    "description": "",
-}
-
 # World & Materials
 
 class RecreateSky(Operator):
